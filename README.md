@@ -221,15 +221,15 @@ It explores:
 
 # **Results of Models trained on Filtered Dataset**
 
-## Dataset Distribution
+## 1. Dataset Distribution
 
 ![Filtered Dataset Distribution](scripts/Filtered/Datasets/target_properties_distribution.png)
 
-## Learning Curves
+## 2. Learning Curves
 
 ![Learning Curves](scripts/Filtered/Results/comparison_GNN_fe_all_strategies.png)
 
-## Parity_Plot
+## 3. Parity Plot
 
 ![Parity Plot](scripts/Filtered/Results/parity_plots_all_models_all_strategies_formation_energy.png)
 
