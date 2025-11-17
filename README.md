@@ -59,8 +59,6 @@ The final 10-page research report submitted for the course:
 
 # 📁 **Repository Structure**
 
-You can add this in GitHub for clarity.
-
 ```
 📦 scripts
 │
@@ -221,13 +219,15 @@ It explores:
 
 ---
 
-# 📈 **Example Images (Placeholders)**
+# **Results of Models trained on Filtered Dataset**
 
-When you upload, GitHub will render them:
+##Dataset Distribution
+![Filtered Dataset Distribution](scripts/Filtered/Datasets/target_properties_distribution.png)
 
+##Learning Curves
+![Learning Curves](scripts/Filtered/Results/comparison_GNN_fe_all_strategies.png)
 
-![Filtered Dataset Distribution](scripts/Unfiltered/Datasets/target_properties_distribution.png)
-![Learning Curves](scripts/Unfiltered/Results/comparison_GNN_fe_all_strategies.png)
+##Parity_Plot
 ![Parity Plot](scripts/Filtered/Results/parity_plots_all_models_all_strategies_formation_energy.png)
 
 
@@ -244,11 +244,6 @@ conda activate mlms
 
 ### 2. Install dependencies:
 
-```bash
-pip install -r requirements.txt
-```
-
-If you don’t have the file:
 
 ```bash
 pip install torch torchvision torchaudio torch-geometric pandas numpy scikit-learn tqdm matplotlib pymatgen joblib
@@ -258,18 +253,14 @@ pip install torch torchvision torchaudio torch-geometric pandas numpy scikit-lea
 
 # ▶️ **How to Run the Project**
 
-The easiest method:
-
 ## **Run Jupyter Notebooks**
 
 ```
-Filtered/main.ipynb
-Unfiltered/main.ipynb
+scripts/Filtered/main.ipynb
+scripts/Unfiltered/main.ipynb
 ```
 
 All experiments (training loops, active learning, visualizations) are automated.
-
-
 
 ---
 
@@ -288,8 +279,8 @@ By default, results include:
 Stored in:
 
 ```
-Filtered/Results/
-Unfiltered/Results/
+scripts/Filtered/Results/
+scripts/Unfiltered/Results/
 ```
 
 ---
