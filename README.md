@@ -3,8 +3,6 @@
 
 # 🚀 **Data-Efficient Multi-Property Prediction of Crystals Using Active Learning & GNNs**
 
-### *Group 14 – IIT Madras (MLMS Course Project)*
-
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-Geometric-orange.svg)
 ![Active Learning](https://img.shields.io/badge/Active%20Learning-MC%20Dropout%20%2F%20Ensembles-green.svg)
@@ -219,19 +217,16 @@ It explores:
 
 ---
 
-# **Results of Models trained on Filtered Dataset**
+# **Results**
 
 ## 1. Dataset Distribution
 
-![Filtered Dataset Distribution](scripts/Filtered/Datasets/target_properties_distribution.png)
+![Filtered Dataset Distribution](scripts/Unfiltered/Datasets/target_properties_distribution.png)
 
 ## 2. Learning Curves
 
-![Learning Curves](scripts/Filtered/Results/comparison_GNN_fe_all_strategies.png)
+![Learning Curves](scripts/Unfiltered/Results/comparison_GNN_fe_all_strategies.png)
 
-## 3. Parity Plot
-
-![Parity Plot](scripts/Filtered/Results/parity_plots_all_models_all_strategies_formation_energy.png)
 
 
 ---
