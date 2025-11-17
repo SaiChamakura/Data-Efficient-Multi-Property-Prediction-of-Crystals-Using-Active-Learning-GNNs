@@ -225,11 +225,11 @@ It explores:
 
 When you upload, GitHub will render them:
 
-```md
+
 ![Filtered Dataset Distribution](scripts/Filtered/Datasets/target_properties_distribution.png)
 ![Learning Curves](scripts/Filtered/Results/final_comparison_fe_all_strategies.png)
 ![Parity Plot](scripts/Filtered/Results/parity_plots_all_models_all_strategies_formation_energy.png)
-```
+
 
 ---
 
